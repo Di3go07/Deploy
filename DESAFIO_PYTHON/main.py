@@ -20,7 +20,7 @@ st.set_page_config(
 col1, col2 = st.columns(2, gap='large')
 
 ##CSS
-with open("./DESAFIO_PYTHON\style.css", encoding="utf8") as f:
+with open("./DESAFIO_PYTHON/style.css", encoding="utf8") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 ##FILTRAR TEMPORADA
