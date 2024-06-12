@@ -20,6 +20,10 @@ label.st-emotion-cache-1hjvxyh.e1y5xkzn3 p{
 }
 /* modifica o  titulo dos selectbox*/
 
+body {
+    transform: scale(2.0);
+    transform-origin: 0 0;
+}
 
 div.st-as.st-cq.st-cr.st-cs.st-ct.st-cu.st-cv p{
     font-size: 18px;
