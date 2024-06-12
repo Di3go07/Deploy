@@ -150,7 +150,7 @@ with col2:
             st.write(tabela_ano['Driver'].iloc[1]) 
             st.write(tabela_ano['PTS'].iloc[1], 'pontos')
         with col2_3:
-            st.image('DESAFIO_PYTHON/piloto3_icon.png', width=100)
+            st.image('DESAFIO_PYTHON/piloto3_icon.png', width=150)
             st.title('3º')
             st.write(tabela_ano['Driver'].iloc[2]) 
             st.write(tabela_ano['PTS'].iloc[2], 'pontos')
