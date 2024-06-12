@@ -140,17 +140,17 @@ with col2:
         st.subheader('PÓDIO DA TEMPORADA')
         col2_1, col2_2, col2_3 = st.columns(3)
         with col2_2:
-            st.image('DESAFIO_PYTHON/piloto_icon.png', width=200)
+            st.image('DESAFIO_PYTHON/piloto_icon.png', width=150)
             st.title('I º')
             st.write(tabela_ano['Driver'].iloc[0], '🏆')
             st.write(tabela_ano['PTS'].iloc[0], 'pontos')
         with col2_1:
-            st.image('DESAFIO_PYTHON/piloto2_icon.png', width=150)
+            st.image('DESAFIO_PYTHON/piloto2_icon.png', width=100)
             st.title('2º')
             st.write(tabela_ano['Driver'].iloc[1]) 
             st.write(tabela_ano['PTS'].iloc[1], 'pontos')
         with col2_3:
-            st.image('DESAFIO_PYTHON/piloto3_icon.png', width=150)
+            st.image('DESAFIO_PYTHON/piloto3_icon.png', width=100)
             st.title('3º')
             st.write(tabela_ano['Driver'].iloc[2]) 
             st.write(tabela_ano['PTS'].iloc[2], 'pontos')
