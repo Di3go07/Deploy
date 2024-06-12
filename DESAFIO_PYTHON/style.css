@@ -13,7 +13,9 @@ div.st-emotion-cache-k7vsyb.e1nzilvr2 h3{
 }
 /* modifica o  texto "1950 - 2022"*/
 
-
+body{
+    transform: scale(0.7);
+}
 
 /* Texto botão */
 label.st-emotion-cache-1hjvxyh.e1y5xkzn3 p{
